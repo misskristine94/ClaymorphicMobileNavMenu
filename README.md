@@ -20,17 +20,17 @@ Table( {
 - //this is the name of the screen 
 <br>  MenuItem: "Home", 
 - // this is the screen you will navigate to when you select this item 
-MenuScreenNavigate: Home, 
+<br>  MenuScreenNavigate: Home, 
 - //if you are not comfortable with SVG's, you can use standard icons instead! - just make sure you toggle the component property IconSVGorStandard to false :)  
-StandardIcon: Icon.Home},
-{ MenuItem: "Add new", 
-MenuScreenNavigate: 'Add new', 
- StandardIcon: Icon.Add },
-{ MenuItem: "Profile", MenuScreenNavigate: Profile, 
-StandardIcon: Icon.AddUser }, 
-{ MenuItem: "Settings",
-MenuScreenNavigate: Settings,
-StandardIcon: Icon.Settings } )
+<br> StandardIcon: Icon.Home},
+<br> { MenuItem: "Add new", 
+<br> MenuScreenNavigate: 'Add new', 
+<br>  StandardIcon: Icon.Add },
+<br> { MenuItem: "Profile", MenuScreenNavigate: Profile, 
+<br> StandardIcon: Icon.AddUser }, 
+<br> { MenuItem: "Settings",
+<br> MenuScreenNavigate: Settings,
+<br> StandardIcon: Icon.Settings } )
 
 Change the StandardIcon to whatever out-of-the-box icon you'd like to use. 
 
@@ -38,7 +38,7 @@ Change the StandardIcon to whatever out-of-the-box icon you'd like to use.
 The SVG code is contained within the MenuLogo image control - as we are changing the colour of the SVG's dynamically based on the active screen, we are using the Switch() function. I have recently blogged step by step how to achieve this - https://www.kristinekolodziejski.com/blog/building-a-beautiful-power-apps-mobile-navigation-menu-svgs-part-3
 
 
-The component has six main properties:
+<br> The component has six main properties:
 
 ![image](https://user-images.githubusercontent.com/86930618/181357835-caf09661-1c7a-4f6e-9148-609713c40d92.png)
 
