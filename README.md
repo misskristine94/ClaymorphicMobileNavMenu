@@ -17,11 +17,11 @@ To install the component, please follow these steps:
 - Change the MenuItems property to
 
 Table( {
-//this is the name of the screen 
+- //this is the name of the screen 
 MenuItem: "Home", 
-// this is the screen you will navigate to when you select this item 
+- // this is the screen you will navigate to when you select this item 
 MenuScreenNavigate: Home, 
-//if you are not comfortable with SVG's, you can use standard icons instead! - just make sure you toggle the component property IconSVGorStandard to false :)  
+- //if you are not comfortable with SVG's, you can use standard icons instead! - just make sure you toggle the component property IconSVGorStandard to false :)  
 StandardIcon: Icon.Home},
 { MenuItem: "Add new", 
 MenuScreenNavigate: 'Add new', 
@@ -42,11 +42,11 @@ The component has six main properties:
 
 ![image](https://user-images.githubusercontent.com/86930618/181357835-caf09661-1c7a-4f6e-9148-609713c40d92.png)
 
-MenuItems is the table of menu items pasted above,
-Animation - this is applicable to SVG's in this component only - if you want the active screen SVG to float, please set that to true, otherwise set it to fault.
-IconSVGorStandard - if you want your icons to be SVG's, set that to true. If you are not comfortable SVG's and want to use out-of-the-box icons instead, please set that to false.
-SVGActiveIconColour 1 & 2 - these are the two colours of our SVG which are making up the lineal gradient. If you'd like it to be single toned, please give both properties the same value
-StandardIconColour - if you choose to use standard icons instead of SVG's, this is how you will control the colour of your icon
+- MenuItems is the table of menu items pasted above,
+- Animation - this is applicable to SVG's in this component only - if you want the active screen SVG to float, please set that to true, otherwise set it to fault.
+- IconSVGorStandard - if you want your icons to be SVG's, set that to true. If you are not comfortable SVG's and want to use out-of-the-box icons instead, please set that to false.
+- SVGActiveIconColour 1 & 2 - these are the two colours of our SVG which are making up the lineal gradient. If you'd like it to be single toned, please give both properties the same value
+- StandardIconColour - if you choose to use standard icons instead of SVG's, this is how you will control the colour of your icon
 
 I have added as many comments to the component itself to help you understand how it's built. However, if you have any questions, issues or comments - as always, please reach out to me on my socials and I'll be more than happy to help 😊
 
