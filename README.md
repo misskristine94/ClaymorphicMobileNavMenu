@@ -12,7 +12,9 @@ This menu consists of a mixture of code and out-of-the-box controls.
 
 To install the component, please follow these steps:
 
-- Please download it from this repo, **- Import it into your application **
+- Please download the .msapp from this repo,
+
+- Import it into your application 
 
 - Change the MenuItems property to
 
