@@ -18,21 +18,35 @@ To install the component, please follow these steps:
 
 - Change the MenuItems property to
 
-Table( {
-- //this is the name of the screen 
-<br>  MenuItem: "Home", 
-- // this is the screen you will navigate to when you select this item 
-<br>  MenuScreenNavigate: Home, 
-- //if you are not comfortable with SVG's, you can use standard icons instead! - just make sure you toggle the component property IconSVGorStandard to false :)  
-<br> StandardIcon: Icon.Home},
-<br> { MenuItem: "Add new", 
-<br> MenuScreenNavigate: 'Add new', 
-<br>  StandardIcon: Icon.Add },
-<br> { MenuItem: "Profile", MenuScreenNavigate: Profile, 
-<br> StandardIcon: Icon.AddUser }, 
-<br> { MenuItem: "Settings",
-<br> MenuScreenNavigate: Settings,
-<br> StandardIcon: Icon.Settings } )
+Table(
+   <br> {
+     <br>   //this is the name of the screen
+     <br>   MenuItem: "Home",
+    <br>    // this is the screen you will navigate to when you select this item
+    <br>    MenuScreenNavigate: Screen1,
+    <br>    //if you are not comfortable with SVG's, you can use standard icons instead!  - just make sure you change the icon property of MenuIcon to              ThisItem.StandardIcon
+    <br>    StandardIcon: Icon.Home,
+    <br>    ID: 1
+    },
+   <br> {
+    <br>    MenuItem: "Profile",
+    <br>    MenuScreenNavigate: Screen2,
+    <br>    StandardIcon: Icon.AddUser,
+    <br>    ID: 2
+   <br> },
+  <br>  {
+   <br>     MenuItem: "Settings",
+   <br>     MenuScreenNavigate: Screen3,
+    <br>    StandardIcon: Icon.Settings,
+    <br>    ID: 3
+   <br> },
+   <br> {
+    <br>    MenuItem: "Balance",
+    <br>    MenuScreenNavigate: Screen4,
+     <br>   StandardIcon: Icon.AddDocument,
+     <br>   ID: 4
+  <br>  }
+<br>)
 
 Change the StandardIcon to whatever out-of-the-box icon you'd like to use. 
 
